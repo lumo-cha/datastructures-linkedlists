@@ -40,3 +40,9 @@ This class represents the linked list structure itself and contains the methods 
 You can use `driver.py` to test your implementation. `main()` is predefined and
 contains comments about the expected output from your code. If you want to write
 custom tests you can modify `yourtests()` or create your own function.
+
+## Hints
+It is very useful to draw diagrams of linked lists, nodes and arrows, to understand
+what changes you need to make for a specific operation. For example, if you want to
+understand how to implement `insert()` then draw a linked list and walk through each
+operation that needs to be performed. 

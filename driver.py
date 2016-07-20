@@ -7,7 +7,6 @@
 """
 from linkedlist import LinkedList
 
-
 def yourtests():
     """ optional: use this function to define your own tests """
     yourlist = LinkedList()
@@ -22,13 +21,16 @@ def main():
     mylist.append(10)
     mylist.append(20)
     mylist.append(30)
+    
+    # this should display 10 20 30
+    print(mylist)
 
     # add some nodes to the front
     mylist.prepend(0)
     mylist.prepend(-10)
 
     # this should display: -10 0 10 20 30
-    mylist.display()
+    print(mylist)
 
     mylist.update(0, -20)  # change -10 to -20
     mylist.insert(2, 5)    # insert 5 between 0 and 10
@@ -36,7 +38,7 @@ def main():
     mylist.remove(1)       # remove the 0
 
     # this should display: -20 5 10 20 25 30
-    mylist.display()
+    print(mylist)
 
     mylist.remove(3)        # removes 20
     mylist.append(40)       # add 40 to the end
@@ -47,7 +49,7 @@ def main():
     mylist.prepend(-30)     # add -30 to the front
 
     # this should display -30 -20 5 10 25 30 55
-    mylist.display()
+    print(mylist)
 
 
 if __name__ == "__main__":
