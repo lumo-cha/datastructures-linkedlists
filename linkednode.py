@@ -32,3 +32,7 @@ class LinkedNode:
     def data(self, value):
         """ set the data stored in this node """
         pass
+
+    def __str__(self):
+        """ you don't have to do anything with this method """
+        return str(self._data)

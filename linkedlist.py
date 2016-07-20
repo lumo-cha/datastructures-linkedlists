@@ -36,11 +36,13 @@ class LinkedList:
         forget to relink any remaining nodes! """
         pass
 
-    def display(self):
+    def __str__(self):
         """ display, in order, the data of every node in the LinkedList. You don't have to do anything with this
         method
         """
         iter = self.head
+        display = []
         while iter is not None:
-            print("%s " % iter.data)
+            display.append(str(iter.data))
             iter = iter.next
+        return ",".join(display)
