@@ -1,7 +1,7 @@
 # Linked Lists
 Linked lists are one of the fundamental data structures in computer science, along with arrays. They allow memory to be allocated dynamically as more data is added and
-are the foundation for many other linked-type data structure such as [trees](https://en.wikipedia.org/wiki/Tree_(data_structure) and
-[graphs](https://en.wikipedia.org/wiki/Graph_(abstract_data_type). The majority of modern data structures are based on "linking" memory together and a lot of algorithm
+are the foundation for many other linked-type data structure such as [trees](https://en.wikipedia.org/wiki/Tree_(data_structure)) and
+[graphs](https://en.wikipedia.org/wiki/Graph_(abstract_data_type)). The majority of modern data structures are based on "linking" memory together and a lot of algorithm
 research is performed in this domain.
 
 In this exercise you'll be writing the core functionality of a linked list. The class and method structure is provided
@@ -45,4 +45,4 @@ custom tests you can modify `yourtests()` or create your own function.
 It is very useful to draw diagrams of linked lists, nodes and arrows, to understand
 what changes you need to make for a specific operation. For example, if you want to
 understand how to implement `insert()` then draw a linked list and walk through each
-operation that needs to be performed. 
+operation that needs to be performed.
