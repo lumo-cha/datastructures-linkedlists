@@ -11,11 +11,15 @@ class LinkedList:
     head = None     # the first LinkedNode in the list
 
     def append(self, value):
-        """ add a new LinkedNode, containing the given data, to the tail of the list """
+        """ add a new LinkedNode, containing the given data, after the tail of the list. The tail needs to be updated
+        to point to the new node.
+        """
         pass
 
     def prepend(self, value):
-        """ add a new LinkedNode, containing the given data, to the head of the list """
+        """ add a new LinkedNode, containing the given data, before the head of the list. The head needs to be updated
+        to point to the new node.
+        """
 
     def update(self, idx, value):
         """ update the data stored in the node at the given index """

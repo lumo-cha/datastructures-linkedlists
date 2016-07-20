@@ -8,7 +8,7 @@
 from linkedlist import LinkedList
 
 
-def yourtest():
+def yourtests():
     """ optional: use this function to define your own tests """
     yourlist = LinkedList()
     pass
